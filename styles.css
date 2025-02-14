@@ -1,0 +1,256 @@
+html li {
+    list-style: none;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    height: 1000vh;
+}
+
+.head {
+    background-color: #131110;
+    height: 750px;
+    width: 100vw;
+    left: 0;
+}
+
+* {
+    font-family: Poppins, sans-serif;
+}
+
+.nav-links {
+    margin-left: auto;
+    font-size: 16px;
+
+}
+
+nav ul {
+    color: #ffffff;
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    gap: 40px;
+    font-size: 15px;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 11px 25px;
+    margin-top: -10px;
+    margin-right: 25px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #3F65FE, #2A4AC9);
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-bottom: 50px;
+}
+
+.header-text-2 {
+    margin-left: 8%;
+    color: #d3d2d2;
+}
+
+.container {
+    width: 45%;
+    height: 670px;
+    overflow: hidden;
+    float: right;
+    margin-top: -350px;
+    margin-right: 80px;
+}
+.brand-img{
+    display: flex;
+    margin-top: 60px;
+}
+.brand-images{
+    width: 175px;
+    height: 80px;
+    margin-right: 25%;
+    margin-left: 25px;
+}
+.home-img {
+    height: 90%;
+    border-radius: 275px 275px 0 0;
+    box-sizing: border-box;
+    border: 8px solid #393737;
+}
+
+.search {
+    height: 20px;
+    width: 400px;
+    border: 3px solid rgb(210, 207, 207);
+    background-color: #ffffff;
+    border-radius: 2px;
+    display: flex;
+    padding: 20px;
+    gap: 35px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.search-btn {
+    margin-left: 280px;
+    padding: 15px;
+}
+
+.gradient-circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #FF8336, #FCAE7D);
+    margin-left: 230px;
+    margin-bottom: -50px;
+}
+
+.gold {
+    color: #FF8336;
+}
+
+.header-text-3 {
+    display: flex;
+    color: #ffffff;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+
+.header-text-3 div {
+    margin-right: 40px;
+}
+
+.val {
+    font-size: 25px;
+}
+
+.val-text {
+    margin-top: -30px;
+}
+.Choices h4{
+    font-size: 25px;
+    margin-top: 85px;
+}
+.Choices h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -15px;
+}
+.Residencies {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+.Residencies div {
+    padding: 15px;
+    border-radius: 10px;
+}
+.Residencies div:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    background-color: #EFF2FF;
+    cursor: pointer;
+}
+.Residencies img {
+    width: 230px;
+    height: 165px;
+}
+.price {
+    font-size: 20px;
+    color: #5D5C5B;
+}
+.Plot {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #1F3E72;
+}
+.place {
+    color: #A09F9F;
+    font-size: 13px;
+    margin-top: -5px;
+}
+.container-2 {
+    width: 45%;
+    height: 670px;
+    overflow: hidden;
+    float: left;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.value-home-img {
+    height: 90%;
+    border-radius: 275px 275px 0 0;
+    box-sizing: border-box;
+    border: 8px solid #EAEAEA;
+}
+.Value {
+    display: flex;
+}
+
+.accordion {
+    width: 550px;
+}
+
+.accordion-item {
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s ease;
+    height: 60px;
+}
+
+.accordion-content {
+    padding: 15px;
+    font-size: 14px;
+    color: #555;
+    background: #fff;
+    display: none; 
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.icon ,.arrow{
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: #EEEEFF;
+    padding: 10px;
+}
+
+.accordion-header span {
+    color: #1F3E72;
+}
