@@ -141,11 +141,11 @@ h2 {
 .val-text {
     margin-top: -30px;
 }
-.Choices h4{
+.Choices h4, .Contact h4{
     font-size: 25px;
     margin-top: 85px;
 }
-.Choices h3 {
+.Choices h3, .Contact h3 {
     font-size: 30px;
     font-weight: bolder;
     margin-top: -15px;
@@ -182,9 +182,13 @@ h2 {
     font-weight: bolder;
     color: #1F3E72;
 }
-.place {
+.place,.contactus-text {
     color: #A09F9F;
     font-size: 13px;
+    margin-top: -5px;
+}
+.contactus-text {
+    font-size: 15px;
     margin-top: -5px;
 }
 .container-2 {
@@ -195,11 +199,25 @@ h2 {
     margin-top: 60px;
     margin-left: 40px;
 }
+.container-3 {
+    width: 600px;
+    height: 630px;
+    overflow: hidden;
+    float: right;
+    margin-top: -550px;
+    margin-right: -100px;
+}
 .value-home-img {
     height: 90%;
     border-radius: 275px 275px 0 0;
     box-sizing: border-box;
     border: 8px solid #EAEAEA;
+}
+.contact-home-img {
+    width: 400px;
+    height: 580px;    
+    border-radius: 275px 275px 0 0;
+    box-sizing: border-box;
 }
 .Value {
     display: flex;
@@ -253,4 +271,53 @@ h2 {
 
 .accordion-header span {
     color: #1F3E72;
+}
+.contact-icons {
+    color: #4066FF;
+    background-color: #EEEEFF;
+    padding: 15px !important;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.contact-text {
+    margin-top: -15px;
+    margin-left: 25px
+}
+
+.contact-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.contact-item:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contact-btn {
+    background-color: #EEEEFF;
+    border: none;
+    color: #4A6DFF;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+    margin: auto;
+    display: block;
+}
+
+.contact-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #4A6DFF;
+    color: white;
+}
+.contact-info {
+    display: flex;
 }
