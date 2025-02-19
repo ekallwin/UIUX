@@ -273,6 +273,7 @@ h2 {
     border-bottom: 1px solid #ddd;
     transition: background 0.3s ease;
     height: 60px;
+    border: none;
 }
 
 .accordion-content {
@@ -285,7 +286,6 @@ h2 {
 
 .accordion-item.active .accordion-content {
     display: block;
-    border: none;
 }
 
 .icon,
