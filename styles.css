@@ -8,7 +8,7 @@ html {
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-    height: 1000vh;
+    height: 100%;
 }
 
 .head {
@@ -62,6 +62,10 @@ h2 {
     margin-bottom: 50px;
 }
 
+.header-text {
+    margin-top: -250px;
+}
+
 .header-text-2 {
     margin-left: 8%;
     color: #d3d2d2;
@@ -75,16 +79,19 @@ h2 {
     margin-top: -350px;
     margin-right: 80px;
 }
-.brand-img{
+
+.brand-img {
     display: flex;
     margin-top: 60px;
 }
-.brand-images{
+
+.brand-images {
     width: 175px;
     height: 80px;
     margin-right: 25%;
     margin-left: 25px;
 }
+
 .home-img {
     height: 90%;
     border-radius: 275px 275px 0 0;
@@ -115,8 +122,8 @@ h2 {
     height: 65px;
     border-radius: 100%;
     background: linear-gradient(to right, #FF8336, #FCAE7D);
-    margin-left: 230px;
-    margin-bottom: -50px;
+    margin-left: 330px;
+    margin-bottom: -100px;
 }
 
 .gold {
@@ -141,15 +148,20 @@ h2 {
 .val-text {
     margin-top: -30px;
 }
-.Choices h4, .Contact h4{
+
+.Choices h4,
+.Contact h4 {
     font-size: 25px;
     margin-top: 85px;
 }
-.Choices h3, .Contact h3 {
+
+.Choices h3,
+.Contact h3 {
     font-size: 30px;
     font-weight: bolder;
     margin-top: -15px;
 }
+
 .Residencies {
     margin: 0 auto;
     display: flex;
@@ -157,40 +169,49 @@ h2 {
     gap: 70px;
     margin-top: 10px;
     padding: 20px;
-    
+
 }
+
 .Residencies div {
     padding: 15px;
     border-radius: 10px;
 }
+
 .Residencies div:hover {
     scale: 1.05;
     transition: 0.5s;
     background-color: #EFF2FF;
     cursor: pointer;
 }
+
 .Residencies img {
     width: 230px;
     height: 165px;
 }
+
 .price {
     font-size: 20px;
     color: #5D5C5B;
 }
+
 .Plot {
     font-size: 25px;
     font-weight: bolder;
     color: #1F3E72;
 }
-.place,.contactus-text {
+
+.place,
+.contactus-text {
     color: #A09F9F;
     font-size: 13px;
     margin-top: -5px;
 }
+
 .contactus-text {
     font-size: 15px;
     margin-top: -5px;
 }
+
 .container-2 {
     width: 45%;
     height: 670px;
@@ -199,6 +220,7 @@ h2 {
     margin-top: 60px;
     margin-left: 40px;
 }
+
 .container-3 {
     width: 600px;
     height: 630px;
@@ -207,18 +229,21 @@ h2 {
     margin-top: -550px;
     margin-right: -100px;
 }
+
 .value-home-img {
     height: 90%;
     border-radius: 275px 275px 0 0;
     box-sizing: border-box;
     border: 8px solid #EAEAEA;
 }
+
 .contact-home-img {
     width: 400px;
-    height: 580px;    
+    height: 580px;
     border-radius: 275px 275px 0 0;
     box-sizing: border-box;
 }
+
 .Value {
     display: flex;
 }
@@ -233,7 +258,7 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    
+
 }
 
 .accordion-header {
@@ -255,14 +280,15 @@ h2 {
     font-size: 14px;
     color: #555;
     background: #fff;
-    display: none; 
+    display: none;
 }
 
 .accordion-item.active .accordion-content {
     display: block;
 }
 
-.icon ,.arrow{
+.icon,
+.arrow {
     font-size: 18px;
     margin-right: 10px;
     background-color: #EEEEFF;
@@ -272,6 +298,7 @@ h2 {
 .accordion-header span {
     color: #1F3E72;
 }
+
 .contact-icons {
     color: #4066FF;
     background-color: #EEEEFF;
@@ -279,6 +306,7 @@ h2 {
     font-size: 20px;
     border-radius: 5px;
 }
+
 .contact-text {
     margin-top: -15px;
     margin-left: 25px
@@ -292,11 +320,14 @@ h2 {
     margin-bottom: 25px;
     margin-right: 25px;
 }
+
 .contact-item:hover {
     transform: scale(1.1);
     transition: 0.5s;
     cursor: pointer;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
+
 .contact-btn {
     background-color: #EEEEFF;
     border: none;
@@ -318,6 +349,108 @@ h2 {
     background-color: #4A6DFF;
     color: white;
 }
+
 .contact-info {
     display: flex;
+}
+
+.sbtn {
+    background-color: #5a73d7;
+    border: 2px solid white;
+    padding: 12px;
+    width: 120px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: -10px;
+    border-radius: 10px;
+}
+
+.sbtn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.start {
+    margin-top: 100px !important;
+    width: 95%;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 7px solid #6b77e3;
+    color: #ffffff;
+    background-color: #3b5eec;
+}
+
+.footer {
+    margin-top: 70px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.footer-content {
+    width: fit-content;
+}
+
+.footer-content-2 {
+    margin-left: 650px;
+    margin-top: -50px;
+}
+
+.footer-text {
+    display: flex;
+}
+
+.information {
+    display: flex;
+    margin-right: 25px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header-txt {
+    margin-top: 50px;
+    animation: slideIn 2s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.container {
+    margin-right: 80px;
+    animation: imgslideIn 2s;
+}
+
+@keyframes imgslideIn {
+    from {
+        transform: translateX(80px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.white-gradient {
+    width: 320px;
+    height: 320px;
+    background: rgba(255, 255, 255, .522);
+    filter: blur(100px);
+    border-radius: 100px;
 }
