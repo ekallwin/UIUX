@@ -285,6 +285,7 @@ h2 {
 
 .accordion-item.active .accordion-content {
     display: block;
+    border: none;
 }
 
 .icon,
